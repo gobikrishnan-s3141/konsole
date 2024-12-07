@@ -102,6 +102,8 @@ SCHEME_FILE=src/nord.colorscheme
 VERBOSE=true
 NORD_KONSOLE_VERSION=0.1.0
 
+export XDG_DATA_HOME="$HOME/.local/share"
+
 if [ -z "$XDG_DATA_HOME" ]; then
   LOCAL_INSTALL_DIR=~/.local/share/konsole
 else
